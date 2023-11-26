@@ -3,29 +3,10 @@
 ## Overview
 This React-based ToDo application provides a simple and intuitive interface for managing daily tasks. Users can add, edit, and delete tasks, with each task having a description and a status indicating whether it's done.
 
-## Installation
 
 ### Prerequisites
 - Node.js
 - npm (Node Package Manager)
-
-### Installing and Running
-```bash
-# Clone the repository
-git clone [https://github.com/Turan10/Mini-Project/]
-
-
-# Install dependencies
-npm install
-
-# Start the application
-npm start
-Usage
-Add Tasks: Enter task details and click 'Create'.
-Edit Tasks: Click 'Edit' on any task to modify its details.
-Delete Tasks: Remove tasks from the list using the 'Delete' button.
-Contributing
-Contributions are welcome. Please fork the repository, make your changes, and submit a pull request.
 
 ## Code Overview
 App.jsx
