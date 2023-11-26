@@ -27,15 +27,15 @@ Delete Tasks: Remove tasks from the list using the 'Delete' button.
 Contributing
 Contributions are welcome. Please fork the repository, make your changes, and submit a pull request.
 
-# Code Overview
+## Code Overview
 App.jsx
 The main component of the application. It handles the state of tasks and provides functions for loading, adding, editing, and deleting tasks. It also renders the ToDoList and ToDoForm components.
 
-# ToDoForm.jsx
+## ToDoForm.jsx
 Manages the form for adding and editing tasks. It allows users to enter a task description and select its status (Done or Pending). The form also handles validation to ensure no empty fields are submitted.
 
-# ToDoList.jsx
+## ToDoList.jsx
 Displays the list of tasks in a table format. Each task shows an ID, description, status, and actions for editing and deleting. This component receives tasks as props from the App.jsx and utilizes callback functions for edit and delete actions.
 
-# Persistance.js
+## Persistance.js
 Handles API interactions using Axios. It provides a function fetchData for making GET, POST, PUT, and DELETE requests to a specified URL. This utility is used for loading, adding, editing, and deleting tasks.
